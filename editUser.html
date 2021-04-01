@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>tinder</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+</head>
+<style>
+
+
+    body {
+        background: red;
+        background: linear-gradient(to right, red, red);
+    }
+
+
+    #txtName {
+        margin-top: 10px;
+    }
+
+    #txtEmail {
+        margin-top: 10px;
+    }
+
+    #txtPhone {
+        margin-top: 10px;
+    }
+
+    #txtDate {
+        margin-top: 10px;
+    }
+
+    #txtPassWord {
+        margin-top: 10px;
+    }
+
+    #txtConfinPass {
+        margin-top: 10px;
+    }
+
+    #radioGioiTinh {
+        margin-top: 10px;
+    }
+
+    #radioFemale {
+        margin-left: 10px;
+    }
+
+    #checkBock {
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 mx-auto">
+            <div class="card  my-5">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Edit InFomation</h5>
+                    <form class="form-signin">
+
+                        <div id="txtName" class="form-group">
+                            <!--                            <label for="inputFullNeme" class="form-label">Full Name</label>-->
+                            <input type="email" id="inputFullNeme" class="form-control" placeholder="Full name"
+                            >
+
+                        </div>
+
+                        <div id="txtEmail" class="form-group">
+                            <!--                            <label for="inputEmail" class="form-label">Email address</label>-->
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
+                            >
+
+                        </div>
+
+                        <div id="txtPhone" class="form-group">
+                            <div class="form-group input-group">
+                                <!--                            <div class="input-group-prepend">-->
+                                <!--                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>-->
+                                <!--                            </div>-->
+
+                                <select class="custom-select" style="max-width: 120px;">
+                                    <option selected="">+037</option>
+                                    <option value="1">+098</option>
+                                    <option value="2">+097</option>
+                                    <option value="3">+701</option>
+                                </select>
+                                <input name="" class="form-control" placeholder="Phone number" type="text">
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!--                        form-label-group bo tron-->
+
+
+
+                        <div id="radioGioiTinh" class="form-group input-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                       id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Nam
+                                </label>
+                            </div>
+                            <div id="radioFemale" class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                       id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Nữ
+                                </label>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Chơi game</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Bóng Đá</label>
+                        </div>
+
+                        <div id="checkBock" class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Remember password</label>
+                        </div>
+                        <button class="btn btn-lg btn-primary" type="submit"> Edit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="assets/js/stylish-portfolio.js"></script>
+</body>
+
+</html>
